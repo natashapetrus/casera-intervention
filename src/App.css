@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #FFFFFF;
+  padding: 10px;
+  color: #000000;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.topMenuNavigation {
+  width: 18%;
+  font-family: 'Dosis';
+  font-weight: 800;
+  font-size: larger;
+}
