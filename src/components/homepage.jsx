@@ -43,7 +43,7 @@ export default class Homepage extends Component{
                     <MediaQuery maxDeviceWidth={600} values={{ deviceWidth: 1600 }}>            
                         <div style={{height: '200px', width: '80%', padding:'10%'}}>
                             <p className="heading" style={{fontWeight:'800', color: '#ffffff', fontSize:'xx-large'}}>WHO WE ARE</p>
-                            <p style={{color: '#ffffff', fontFamily:'Open Sans'}}>
+                            <p style={{color: '#ffffff'}}>
                                 People tend to think that "About Us" pages have to sound formal to gain credibility and trust. But most people find it easier to trust real human beings, rather than a description that sounds like it came from an automation.
                             </p>
                          </div>
@@ -58,7 +58,7 @@ export default class Homepage extends Component{
                             tag="figure">
                             <div style={{height: '200px', width: '80%', padding:'10%'}}>
                                 <p className="heading" style={{fontWeight:'800', color: '#ffffff', fontSize:'xx-large'}}>WHO WE ARE</p>
-                                <p style={{color: '#ffffff', fontFamily:'Open Sans'}}>
+                                <p style={{color: '#ffffff'}}>
                                 People tend to think that "About Us" pages have to sound formal to gain credibility and trust. But most people find it easier to trust real human beings, rather than a description that sounds like it came from an automation.
                                 </p>
                             </div>
