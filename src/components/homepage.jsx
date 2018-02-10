@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
-import { bubble as Menu } from 'react-burger-menu'
-import logo from '../assets/images/logo-header.PNG';
 import background from '../assets/images/children.jpg';
 import {Parallax} from 'react-scroll-parallax';
-import Typist from 'react-typist';
 import '../App.css';
 
 export default class Homepage extends Component{
@@ -43,6 +40,15 @@ export default class Homepage extends Component{
                     </div>
                 </div>
                 <div style={{padding: 0, display: 'flex', width: '100%', height: '400px', backgroundColor: '#e18a07', overflow: 'hidden', zIndex:-1}}>
+                    <MediaQuery maxDeviceWidth={600} values={{ deviceWidth: 1600 }}>            
+                        <div style={{height: '200px', width: '80%', padding:'10%'}}>
+                            <p className="heading" style={{fontWeight:'800', color: '#ffffff', fontSize:'xx-large'}}>WHO WE ARE</p>
+                            <p style={{color: '#ffffff', fontFamily:'Open Sans'}}>
+                                People tend to think that "About Us" pages have to sound formal to gain credibility and trust. But most people find it easier to trust real human beings, rather than a description that sounds like it came from an automation.
+                            </p>
+                         </div>
+                    </MediaQuery>
+                    <MediaQuery minDeviceWidth={601} values={{ deviceWidth: 1600 }}>            
                     <div style={{width: '70%', height: '100%'}}>
                         <Parallax
                             className="custom-class"
@@ -51,7 +57,7 @@ export default class Homepage extends Component{
                             slowerScrollRate
                             tag="figure">
                             <div style={{height: '200px', width: '80%', padding:'10%'}}>
-                                <p style={{fontFamily:'Dosis', fontWeight:'800', color: '#ffffff', fontSize:'xx-large'}}>WHO WE ARE</p>
+                                <p className="heading" style={{fontWeight:'800', color: '#ffffff', fontSize:'xx-large'}}>WHO WE ARE</p>
                                 <p style={{color: '#ffffff', fontFamily:'Open Sans'}}>
                                 People tend to think that "About Us" pages have to sound formal to gain credibility and trust. But most people find it easier to trust real human beings, rather than a description that sounds like it came from an automation.
                                 </p>
@@ -64,23 +70,14 @@ export default class Homepage extends Component{
                         offsetYMin={-55}
                         slowerScrollRate
                         tag="figure">
-                        <img src={background} style={{left: -50, width: '150%', height: 'auto', overflow:'hidden', opacity:0.5}}/>
-                    </Parallax>
+                        <img src={background} alt='' style={{left: -50, width: '150%', height: 'auto', overflow:'hidden', opacity:0.5}}/>
+                    </Parallax>   
+                    </MediaQuery>
                 </div>
                 <div style={{width: '100%', height: '400px', backgroundColor: '#ffffff'}}></div>
                 <div style={{width: '100%', height: '400px', backgroundColor: '#ffcc00'}}></div>
                 <div style={{width: '100%', height: '400px', backgroundColor: '#000000'}}></div>
             </div>
         );
-    }
-}
-
-var typistStyle = {
-    cursor: {
-        show: true,
-        blink: false,
-        element: 'a',
-        hideWhenDone: true,
-        hideWhenDoneDelay: 0,
     }
 }

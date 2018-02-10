@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
-import { bubble as Menu } from 'react-burger-menu'
+import { bubble as Menu } from 'react-burger-menu';
 import logo from '../assets/images/logo-header.PNG';
 import '../App.css';
 
@@ -19,7 +19,7 @@ export default class Header extends Component{
                       </div>
                     </div>
                     <div style={{width: '26%', height: '100%', backgroundColor: '#ffffff', paddingTop: '25px'}}>
-                      <img src={logo} alt="casera-intervention-logo" style={{maxWidth: '80%', maxheight: '80%'}}/>
+                      <img src={logo} alt="CASERA" style={{maxWidth: '80%', maxheight: '80%'}}/>
                     </div>
                     <div style={{padding: '20px', borderBottom: '1px solid #000000', width: '37%', display: 'flex'}}>
                       <div className="topMenuNavigation">
