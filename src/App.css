@@ -8,7 +8,6 @@
 
 .App-header {
   background-color: #FFFFFF;
-  padding: 10px;
   color: #000000;
 }
 
@@ -21,8 +20,12 @@
 }
 
 .topMenuNavigation {
-  width: 18%;
-  font-family: 'Dosis';
-  font-weight: 800;
-  font-size: larger;
+  width: 50%;
+  font-family: 'Lato';
+  font-weight: 100;
+  font-size: medium;
+}
+
+.menu-item {
+  color: #ffffff;
 }

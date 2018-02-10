@@ -2,15 +2,20 @@
   "name": "casera-intervention",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://natashapetrus.github.io/casera-intervention",
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "react": "^16.2.0",
     "react-burger-menu": "^2.2.3",
     "react-dom": "^16.2.0",
     "react-responsive": "^4.0.4",
     "react-scripts": "1.1.1",
-    "react-scroll-parallax": "^1.2.1"
+    "react-scroll-parallax": "^1.2.1",
+    "react-typist": "^2.0.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
