@@ -137,9 +137,9 @@ export default class Homepage extends Component{
                 </MediaQuery>
                 <div style={{display:'flex', width: '100%', height: '75px', backgroundColor: '#ffcc00', alignContent:'center', justifyContent:'center', alignItems:'center', textAlign:'center'}}>
                         <ul className="soc">
-                            <li><a className="soc-f" href="/"></a></li>
-                            <li><a className="soc-i" href="/"></a></li>
-                            <li><a className="soc-mail soc-icon-last" href="/"></a></li>
+                            <li><a className="soc-f" href=""></a></li>
+                            <li><a className="soc-i" href=""></a></li>
+                            <li><a className="soc-mail soc-icon-last" href=""></a></li>
                         </ul>
                 </div>
             </div>
