@@ -10,7 +10,7 @@ class App extends Component {
       <ParallaxProvider>
         <div className="App">
           <Header />
-          <div style={{position: 'relative', marginTop: '100px'}}>
+          <div style={{position: 'relative', marginTop: '50px'}}>
             <Homepage />
           </div>
         </div>

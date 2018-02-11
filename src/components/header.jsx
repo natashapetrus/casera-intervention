@@ -9,7 +9,7 @@ export default class Header extends Component{
         return(
         <div style={{position: 'fixed', width: '100%', top: 0, left: 0, backgroundColor: '#FFFFFF', zIndex: 100}}>
             <MediaQuery minDeviceWidth={601} values={{ deviceWidth: 1600 }}>
-                <div id="menu" style={{paddingBottom: '20px', width: '100%', height: '70px', display: 'flex', alignItems:'center', justifyContent: 'center'}}>           
+                <div id="menu" style={{paddingBottom: '10px', width: '100%', height: '70px', display: 'flex', alignItems:'center', justifyContent: 'center', overflow:'hidden'}}>           
                     <div style={{padding: '20px', borderBottom: '1px solid #404040', width: '37%', display: 'flex'}}>
                       <div className="topMenuNavigation">
                           <a href="">ABOUT US</a>
@@ -18,7 +18,7 @@ export default class Header extends Component{
                           <a href="">OUR PROGRAMS</a>
                       </div>
                     </div>
-                    <div style={{width: '26%', height: '100%', backgroundColor: '#ffffff', paddingTop: '25px'}}>
+                    <div style={{width: '26%', height: '100%', backgroundColor: '#ffffff', paddingTop: '25px', borderBottomLeftRadius:'25px', borderBottomRightRadius:'35px'}}>
                       <img src={logo} alt="CASERA" style={{maxWidth: '80%', maxheight: '80%'}}/>
                     </div>
                     <div style={{padding: '20px', borderBottom: '1px solid #404040', width: '37%', display: 'flex'}}>
@@ -32,7 +32,7 @@ export default class Header extends Component{
                 </div>
             </MediaQuery>
             <MediaQuery minDeviceWidth={401} maxDeviceWidth={600} values={{ deviceWidth: 1600 }}>            
-                <div style={{width: '100%', height: '50px', paddingTop:'10px', paddingBottom:'5px', backgroundColor: '#ffffff', position: 'fixed', top:0, left:0, borderBottom:'1px solid #ebebeb', alignItems: 'center', alignContent:'center', justifyContent: 'center'}}>
+                <div style={{width: '100%', height: '50px', paddingTop:'10px', backgroundColor: '#ffffff', position: 'fixed', top:0, left:0, borderBottom:'1px solid #ebebeb', alignItems: 'center', alignContent:'center', justifyContent: 'center'}}>
                     <img src={logo} alt="casera-intervention-logo" style={{maxWidth: '45%', height: 'auto', maxHeight: '100%'}} />
                 </div> 
                 <Menu left styles={styles}>
@@ -43,7 +43,7 @@ export default class Header extends Component{
                 </Menu>    
             </MediaQuery>
             <MediaQuery maxDeviceWidth={400} values={{ deviceWidth: 1600 }}>            
-                <div style={{width: '100%', height: '40px', paddingTop: '10px', paddingBottom:'5px', backgroundColor: '#ffffff', position: 'fixed', top:0, left:0, borderBottom:'1px solid #ebebeb'}}>
+                <div style={{width: '100%', height: '40px', paddingTop: '10px', backgroundColor: '#ffffff', position: 'fixed', top:0, left:0, borderBottom:'1px solid #ebebeb', overflow:'hidden'}}>
                     <img src={logo} alt="casera-intervention-logo" style={{maxWidth: '45%', height: 'auto', maxHeight: '100%'}} />
                 </div> 
                 <Menu left styles={stylesSmall}>
