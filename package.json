@@ -8,10 +8,14 @@
     "react": "^16.2.0",
     "react-burger-menu": "^2.2.3",
     "react-dom": "^16.2.0",
+    "react-gsap-enhancer": "^0.3.0",
     "react-responsive": "^4.0.4",
+    "react-reveal": "^1.0.0",
     "react-scripts": "1.1.1",
     "react-scroll-parallax": "^1.2.1",
-    "react-typist": "^2.0.4"
+    "react-typist": "^2.0.4",
+    "react-typist-cycle": "^0.1.2",
+    "react-typist-loop": "0.0.5"
   },
   "scripts": {
     "predeploy": "npm run build",

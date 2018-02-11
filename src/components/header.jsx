@@ -10,7 +10,7 @@ export default class Header extends Component{
         <div style={{position: 'fixed', width: '100%', top: 0, left: 0, backgroundColor: '#FFFFFF', zIndex: 100}}>
             <MediaQuery minDeviceWidth={601} values={{ deviceWidth: 1600 }}>
                 <div id="menu" style={{paddingBottom: '20px', width: '100%', height: '70px', display: 'flex', alignItems:'center', justifyContent: 'center'}}>           
-                    <div style={{padding: '20px', borderBottom: '1px solid #000000', width: '37%', display: 'flex'}}>
+                    <div style={{padding: '20px', borderBottom: '1px solid #404040', width: '37%', display: 'flex'}}>
                       <div className="topMenuNavigation">
                           <a href="">ABOUT US</a>
                       </div>
@@ -21,7 +21,7 @@ export default class Header extends Component{
                     <div style={{width: '26%', height: '100%', backgroundColor: '#ffffff', paddingTop: '25px'}}>
                       <img src={logo} alt="CASERA" style={{maxWidth: '80%', maxheight: '80%'}}/>
                     </div>
-                    <div style={{padding: '20px', borderBottom: '1px solid #000000', width: '37%', display: 'flex'}}>
+                    <div style={{padding: '20px', borderBottom: '1px solid #404040', width: '37%', display: 'flex'}}>
                       <div className="topMenuNavigation">
                           <a href="">TESTIMONIALS</a>
                       </div>
