@@ -1,0 +1,27 @@
+.topMenuNavigationBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #ffffff;
+}
+  
+.topMenuText{
+    font-family: 'Lato';
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: small;
+    color: #474747;
+    padding-right: 3%;
+}
+
+.menu-item {
+    color: #474747;
+}
+
+.accentButton {
+    background-color:#49cc99;
+    border:8px solid #49cc99;
+    border-radius:5px;
+    color:#ffffff;
+}
+  

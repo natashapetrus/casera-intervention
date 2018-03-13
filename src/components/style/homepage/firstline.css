@@ -1,0 +1,14 @@
+.firstLineLaptop {
+    color: #000000;
+    width: 100%;
+    height: 350px;
+    background: url('../../../assets/images/kids.jpg') center;
+    background-size: cover;
+    background-color: #ffffff;
+}
+
+.firstLineMobile {
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+}

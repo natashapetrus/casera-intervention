@@ -1,0 +1,50 @@
+.buttonSlide {
+    color: #ffffff;
+    border: 2px solid #0099ff;
+    background-color: #0099ff;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #0099ff;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+  
+.buttonLaptop {
+    padding: 18px 36px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.buttonMobile {
+    padding: 5px;
+    font-size: small;
+    width: '50%';
+}
+
+.slideRight:hover {
+    border: 2px solid #49cc99;
+    box-shadow: inset 400px 0 0 0 #49cc99;
+    color: #ffffff;
+}
+  
+.programButton {
+    color: #0099ff;
+    border: 2px solid #0099ff;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: medium;
+    font-weight: light;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #0099ff;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}

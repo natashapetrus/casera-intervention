@@ -2,31 +2,32 @@ import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
 import { bubble as Menu } from 'react-burger-menu';
 import logo from '../assets/images/logo-header.PNG';
-import '../App.css';
+import './style/header.css';
 
 export default class Header extends Component{
     render(){
         return(
-        <div style={{position: 'fixed', width: '100%', top: 0, left: 0, backgroundColor: '#FFFFFF', zIndex: 100, borderBottom: '2px solid #ebebeb'}}>
+        <div style={{position: 'fixed', width: '100%', top: 0, left: 0, zIndex: 100}}>
             <MediaQuery minDeviceWidth={601} values={{ deviceWidth: 1600 }}>
-                <div id="menu" style={{paddingBottom: '10px', width: '100%', height: '70px', display: 'flex', alignItems:'center', justifyContent: 'center', overflow:'hidden'}}>           
-                    <div style={{paddingTop: '20px', width: '37%', display: 'flex'}}>
-                      <div className="topMenuNavigation">
-                          <a href="">ABOUT US</a>
-                      </div>
-                      <div className="topMenuNavigation">
-                          <a href="">OUR PROGRAMS</a>
-                      </div>
+                <div style={{width: '100%', height: '50px', display: 'flex', alignItems:'center', justifyContent: 'center', overflow:'hidden'}}>           
+                    <div style={{width:'20%', height: '100%', backgroundColor:'#ffffff'}}>
+                      <img src={logo} alt="CASERA" style={{objectFit:'contain', height: '100%', maxWidth: '90%', maxheight: '100%'}}/>
                     </div>
-                    <div style={{width: '26%', height: '100%', backgroundColor: '#ffffff', paddingTop: '25px', borderBottomLeftRadius:'25px', borderBottomRightRadius:'35px'}}>
-                      <img src={logo} alt="CASERA" style={{maxWidth: '80%', maxheight: '80%'}}/>
-                    </div>
-                    <div style={{paddingTop: '20px', width: '37%', display: 'flex'}}>
-                      <div className="topMenuNavigation">
-                          <a href="">TESTIMONIALS</a>
+                    <div className='topMenuNavigationBar' style={{width:'80%', height: '100%'}}>
+                      <div className='topMenuText'>
+                        HOME
                       </div>
-                      <div className="topMenuNavigation">
-                          <a href="">CONTACT US</a>
+                      <div className='topMenuText'>
+                        TENTANG KAMI
+                      </div>
+                      <div className='topMenuText'>
+                        PROGRAM
+                      </div>
+                      <div className='topMenuText'>
+                        ASSESSMENT
+                      </div>
+                      <div className='topMenuText'>
+                        <a className='accentButton'>HUBUNGI KAMI</a>
                       </div>
                     </div>
                 </div>

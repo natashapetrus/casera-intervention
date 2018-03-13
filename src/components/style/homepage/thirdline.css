@@ -1,0 +1,54 @@
+.thirdLineLaptop {
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+}
+
+h3 {
+    color: #000000;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: bolder;
+}
+
+img {
+    border-radius: 50%;
+    height: 80%;
+    margin-right: 100%;
+}
+
+.programOverview {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    padding: 2%;
+}
+
+.programSection {
+    width: 21%;
+    height: 96%;
+    margin-right: 2%;
+    background-color: pink;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#programPictures {
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+#programNames {
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+
+#programDescription {
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
