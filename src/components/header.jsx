@@ -11,7 +11,7 @@ export default class Header extends Component{
             <MediaQuery minDeviceWidth={601} values={{ deviceWidth: 1600 }}>
                 <div style={{width: '100%', height: '50px', display: 'flex', alignItems:'center', justifyContent: 'center', overflow:'hidden'}}>           
                     <div style={{width:'20%', height: '100%', backgroundColor:'#ffffff'}}>
-                      <img src={logo} alt="CASERA" style={{objectFit:'contain', height: '100%', maxWidth: '90%', maxheight: '100%'}}/>
+                      <img src={logo} alt="" style={{objectFit:'contain', maxWidth:'100%', height: '100%', borderRadius:'0px'}}/>
                     </div>
                     <div className='topMenuNavigationBar' style={{width:'80%', height: '100%'}}>
                       <div className='topMenuText'>

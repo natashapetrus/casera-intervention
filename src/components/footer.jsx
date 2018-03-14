@@ -16,7 +16,7 @@ export default class Footer extends Component{
                     </div>
                 </MediaQuery>
                 <MediaQuery minDeviceWidth={601}>
-                    <div style={{display:'flex', width: '100%', height: '75px', backgroundColor: '#2d303f', alignContent:'center', justifyContent:'center', alignItems:'center', textAlign:'center'}}>
+                    <div style={{display:'flex', width: '100%', height: '75px', background: 'linear-gradient(to right, #0099ff, #49cc99)', alignContent:'center', justifyContent:'center', alignItems:'center', textAlign:'center'}}>
                         <ul className="soc">
                             <li><a className="soc-f" href=""></a></li>
                             <li><a className="soc-i" href=""></a></li>

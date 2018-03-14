@@ -10,11 +10,11 @@ class App extends Component {
     return (
       <ParallaxProvider>
         <div className="App">
-          <Header />
+          <div id="top"><Header /></div>
           <div style={{position: 'relative', marginTop: '50px'}}>
             <Homepage />
           </div>
-          <Footer />
+          <div id="contact"><Footer /></div>
         </div>
       </ParallaxProvider>
     );

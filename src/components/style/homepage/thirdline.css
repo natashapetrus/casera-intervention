@@ -1,6 +1,6 @@
 .thirdLineLaptop {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-color: #ffffff;
 }
 
@@ -21,34 +21,96 @@ img {
     width: 100%;
     height: 90%;
     display: flex;
-    padding: 2%;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
 }
 
 .programSection {
     width: 21%;
-    height: 96%;
-    margin-right: 2%;
-    background-color: pink;
+    height: 80%;
+    background-color: #49cc99;
+    color: #000000;
     align-content: center;
     align-items: center;
     justify-content: center;
     text-align: center;
+    box-shadow: 7px 7px lightgrey;
+    padding: 1%;
 }
 
-#programPictures {
-    width: 100%;
+.programSection b{
+    color: #ffffff;
+    font-weight: 1000;
+}
+
+.notLast {
+    margin-right: 1.75%;
+}
+
+.picture1 {
+    background: url('../../../assets/images/test.PNG') center;
+    background-size: cover;
     height: 40%;
-    display: flex;
+    width: 100%;
+    border-radius: 2%;
 }
 
-#programNames {
+.picture2 {
+    background: url('../../../assets/images/children.jpg') center;
+    background-size: cover;
+    height: 40%;
+    width: 100%;
+    border-radius: 2%;
+}
+
+.picture3 {
+    background: url('../../../assets/images/kids3.jpg') center;
+    background-size: cover;
+    height: 40%;
+    width: 100%;
+    border-radius: 2%;
+}
+
+.picture4 {
+    background: url('../../../assets/images/kids2.jpg') center;
+    background-size: cover;
+    height: 40%;
+    width: 100%;
+    border-radius: 2%;
+}
+
+.programPicture {
     width: 100%;
     height: 20%;
     display: flex;
 }
 
-#programDescription {
+.programName {
+    margin-top: 5%;
+    color: #000000;
+    border: 7px solid #ffcc00;
+    background-color: #ffcc00;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: medium;
+    letter-spacing: 1px;
+    cursor: pointer;
+    -webkit-transition: ease-out 0.2s;
+    -moz-transition: ease-out 0.2s;
+    transition: ease-out 0.2s;
+}
+
+.programSlideRight:hover {
+    border: 7px solid #0099ff;
+    background-color: #0099ff;
+    color: #ffffff;
+}
+
+.programDescription {
+    margin-top: 5%;
     width: 100%;
     height: 40%;
-    display: flex;
+    font-size: 16px;
 }
