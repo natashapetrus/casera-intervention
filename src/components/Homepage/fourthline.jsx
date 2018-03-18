@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
+import Fade from 'react-reveal/Fade';
 import '../../App.css';
 import '../style/homepage/homepage.css';
 import '../style/homepage/fourthline.css';
@@ -10,7 +11,8 @@ export default class SecondLine extends Component{
         return(
             <div>
                 <MediaQuery minDeviceWidth={0}>
-                    <div className="fourthLineLaptop">
+                    <Fade>
+                        <div className="fourthLineLaptop">
                             <text style={{fontSize:'xx-large', letterSpacing:'3px', fontWeight:1000}}>PERTANYAAN?</text>
                             <br />
                             <br />&nbsp;&nbsp;Apa yang membuat terbentuknya CASERA?
@@ -19,7 +21,8 @@ export default class SecondLine extends Component{
                             <br /><br />&nbsp;&nbsp;Siapa yang membutuhkannya?
                             <br />
                             <div className="buttonSlide slideRight buttonLaptop" style={{marginTop:'30px'}}>BACA SELENGKAPNYA</div>
-                    </div>
+                        </div>
+                    </Fade>
                 </MediaQuery>
             </div>
         );
