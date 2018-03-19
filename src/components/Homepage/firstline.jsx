@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import MediaQuery from 'react-responsive';
 import TypistLoop from 'react-typist-loop';
 import Typist from 'react-typist';
@@ -66,7 +67,7 @@ export default class FirstLine extends Component{
                                 </div>
                                 <div style={{height: '10%'}} />
                                 <div style={{height:'20%', display:'flex', alignItems:'center', justifyContent:'center', textAlign:'center'}}>
-                                    <div className="buttonSlide slideRight buttonLaptop">AMBIL ASSESSMENT*</div>
+                                    <Link to="/assessment"><div className="buttonSlide slideRight buttonLaptop">AMBIL ASSESSMENT*</div></Link>
                                     <div style={{width:'2%'}} />
                                     <div className="buttonSlide slideRight buttonLaptop">KONSULTASI SEKARANG</div>
                                 </div>

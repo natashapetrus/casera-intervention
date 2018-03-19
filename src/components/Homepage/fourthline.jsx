@@ -13,7 +13,7 @@ export default class SecondLine extends Component{
                 <MediaQuery minDeviceWidth={0}>
                     <Fade>
                         <div className="fourthLineLaptop">
-                            <text style={{fontSize:'xx-large', letterSpacing:'3px', fontWeight:1000}}>PERTANYAAN?</text>
+                            <b style={{fontSize:'xx-large', letterSpacing:'3px', color:'black', fontWeight:1000}}>PERTANYAAN?</b>
                             <br />
                             <br />&nbsp;&nbsp;Apa yang membuat terbentuknya CASERA?
                             <br /><br />&nbsp;&nbsp;Apa Visi dan Misi CASERA?

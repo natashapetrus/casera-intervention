@@ -5,7 +5,6 @@ import '../style/homepage/homepage.css';
 import '../style/homepage/thirdline.css';
 import '../style/button.css';
 import Fade from 'react-reveal/Fade';
-import test from '../../assets/images/test.PNG';
 
 export default class FirstLine extends Component{
     render(){

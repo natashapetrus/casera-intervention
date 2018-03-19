@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { bubble as Menu } from 'react-burger-menu';
 import logo from '../assets/images/logo-header.PNG';
 import './style/header.css';
+
+import Homepage from './homepage.jsx';
+import Assessment from './assessment.jsx';
 
 export default class Header extends Component{
     render(){
@@ -15,7 +19,7 @@ export default class Header extends Component{
                     </div>
                     <div className='topMenuNavigationBar' style={{width:'80%', height: '100%'}}>
                       <div className='topMenuText'>
-                        HOME
+                        <Link to="/">HOME</Link>
                       </div>
                       <div className='topMenuText'>
                         TENTANG KAMI
@@ -24,12 +28,14 @@ export default class Header extends Component{
                         PROGRAM
                       </div>
                       <div className='topMenuText'>
-                        ASSESSMENT
+                        <Link to="/assessment">ASSESSMENT</Link>
                       </div>
                       <div className='topMenuText'>
                         <a className='accentButton'>HUBUNGI KAMI</a>
                       </div>
                     </div>
+                    <Route exact path="/" component={Homepage} />
+                    <Route path="/assessment" component={Assessment} />
                 </div>
             </MediaQuery>
             <MediaQuery minDeviceWidth={401} maxDeviceWidth={600} values={{ deviceWidth: 1600 }}>            

@@ -21,9 +21,9 @@ export default class Footer extends Component{
                     </div>
                     <div className="footerSection" style={{alignItems:'flex-start', justifyContent:'center', display:'flex'}}>
                         <ul className="soc">
-                            <li><a className="soc-f" href=""></a></li>
-                            <li><a className="soc-i" href=""></a></li>
-                            <li><a className="soc-mail soc-icon-last" href=""></a></li>
+                            <li><a className="soc-f" href="https://www.facebook.com/caseraintervention" target="_blank"></a></li>
+                            <li><a className="soc-i" href="https://www.instagram.com/caseraintervention/" target="_blank"></a></li>
+                            <li><a className="soc-mail soc-icon-last" href="mailto:test@caseraintervention.com"></a></li>
                         </ul>
                     </div>
                     <div className="footerSection">
