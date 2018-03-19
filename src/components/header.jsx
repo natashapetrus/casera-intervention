@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { bubble as Menu } from 'react-burger-menu';
 import logo from '../assets/images/logo-header.PNG';
 import './style/header.css';
@@ -34,8 +34,6 @@ export default class Header extends Component{
                         <a className='accentButton'>HUBUNGI KAMI</a>
                       </div>
                     </div>
-                    <Route exact path="/" component={Homepage} />
-                    <Route path="/assessment" component={Assessment} />
                 </div>
             </MediaQuery>
             <MediaQuery minDeviceWidth={401} maxDeviceWidth={600} values={{ deviceWidth: 1600 }}>            
