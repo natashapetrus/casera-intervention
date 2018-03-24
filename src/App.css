@@ -29,3 +29,9 @@
 .geometryBg {
   background: url('./assets/images/bg2.png') center repeat;
 }
+
+.emphasis {
+  border-bottom: 2px dashed #ffcc00;
+  text-decoration-style: none;
+  font-weight: 300;
+}

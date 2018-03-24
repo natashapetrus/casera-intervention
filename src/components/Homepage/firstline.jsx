@@ -7,6 +7,7 @@ import '../../App.css';
 import '../style/homepage/homepage.css';
 import '../style/homepage/firstline.css';
 import '../style/button.css';
+import Separator from '../separator.jsx';
 
 export default class FirstLine extends Component{
     render(){
@@ -47,7 +48,7 @@ export default class FirstLine extends Component{
                 </MediaQuery>
                 <MediaQuery minDeviceWidth={1000}>
                     <div className="firstLineLaptop">
-                        <div style={{height: '50px', width: '100%'}} />
+                        <Separator />
                         <div style={{display: 'flex', height: '300px', width: '100%'}}>
                             <div className="iOSFix" style={{zIndex: 5, width:'100%', height:'100%', fontFamily:'Open Sans', fontSize:'x-large', textAlign:'center', overflow:'hidden'}}>
                                 <div style={{height: '40%', zIndex: 1}}>

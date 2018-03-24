@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
-import { Link } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 import { bubble as Menu } from 'react-burger-menu';
 import logo from '../assets/images/logo-header.PNG';
 import './style/header.css';
 
 import Homepage from './homepage.jsx';
+import Program from './program.jsx';
 import Assessment from './assessment.jsx';
 
 export default class Header extends Component{
@@ -19,19 +20,19 @@ export default class Header extends Component{
                     </div>
                     <div className='topMenuNavigationBar' style={{width:'80%', height: '100%'}}>
                       <div className='topMenuText'>
-                        <Link to="/">HOME</Link>
+                        <NavLink exact={true} to="/" activeClassName='active'>HOME</NavLink>
                       </div>
                       <div className='topMenuText'>
-                        TENTANG KAMI
+                        TENTANG&nbsp;KAMI
                       </div>
                       <div className='topMenuText'>
-                        PROGRAM
+                        <NavLink to="/program" activeClassName='active'>PROGRAM</NavLink>
                       </div>
                       <div className='topMenuText'>
-                        <Link to="/assessment">ASSESSMENT</Link>
+                        <NavLink to="/assessment" activeClassName='active'>ASSESSMENT</NavLink>
                       </div>
                       <div className='topMenuText'>
-                        <a className='accentButton'>HUBUNGI KAMI</a>
+                        <a className='accentButton'>HUBUNGI&nbsp;KAMI</a>
                       </div>
                     </div>
                 </div>
