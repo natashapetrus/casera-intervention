@@ -12,17 +12,29 @@
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
 }
-  
-.buttonLaptop {
-    padding: 18px 36px;
-    font-size: medium;
-    font-weight: bold;
+
+
+@media all and (min-width: 0px){
+    .buttonDevice {
+        padding: 10px 20px;
+        font-size: small;
+    }
 }
 
-.buttonMobile {
-    padding: 5px;
-    font-size: small;
-    width: '50%';
+@media all and (min-width: 700px){
+    .buttonDevice {
+        padding: 12px 24px;
+        font-size: small;
+        font-weight: bold;
+    }
+}
+
+@media all and (min-width: 1000px){
+    .buttonDevice {
+        padding: 18px 36px;
+        font-size: medium;
+        font-weight: bold;
+    }
 }
 
 .slideRight:hover {

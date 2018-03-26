@@ -1,14 +1,239 @@
-.firstLineLaptop {
-    color: #000000;
-    width: 100%;
-    height: 350px;
-    background: url('../../../assets/images/kids.jpg') center;
-    background-size: cover;
-    background-color: #ffffff;
+@media all and (min-width: 0px){
+    .firstLine {
+        color: #000000;
+        width: 100%;
+        height: 400px;
+        background: url('../../../assets/images/kids.jpg') center;
+        background-size: cover;
+        background-color: #ffffff;
+    }
+
+    .firstLineOne{
+        display: 'flex';
+        height: 350px;
+        width: 100%;
+    }
+
+    .firstLineTwo {
+        z-index: 5;
+        width: 100%;
+        height: 100%;
+        font-family: 'Open Sans';
+        font-size: large;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .firstLineThree {
+        height: 40%;
+        z-index: 1;
+    }
+
+    .firstLineHeading {
+        font-size: x-large;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .firstLineTextAndButtonSeparator {
+        height: 50px;
+    }
+
+    .firstLineButtons {
+        height: 20%;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .firstLineButtonsSeparator {
+        height: 10px;
+    }
+
+    .firstLineFinePrint {
+        height: 10%;
+        font-size: x-small;
+        padding: 10px;
+    }
 }
 
-.firstLineMobile {
-    width: 100%;
-    height: 300px;
-    background-color: #ffffff;
+@media all and (min-width: 400px){
+    .firstLine {
+        color: #000000;
+        width: 100%;
+        height: 400px;
+        background: url('../../../assets/images/kids.jpg') center;
+        background-size: cover;
+        background-color: #ffffff;
+    }
+
+    .firstLineOne{
+        display: 'flex';
+        height: 350px;
+        width: 100%;
+    }
+
+    .firstLineTwo {
+        z-index: 5;
+        width: 100%;
+        height: 100%;
+        font-family: 'Open Sans';
+        font-size: large;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .firstLineThree {
+        height: 40%;
+        z-index: 1;
+    }
+
+    .firstLineHeading {
+        font-size: x-large;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .firstLineTextAndButtonSeparator {
+        height: 25px;
+    }
+
+    .firstLineButtons {
+        height: 20%;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .firstLineButtonsSeparator {
+        height: 10px;
+    }
+
+    .firstLineFinePrint {
+        height: 10%;
+        font-size: x-small;
+        padding: 10px;
+    }
+}
+
+@media all and (min-width: 700px){
+    .firstLine {
+        color: #000000;
+        width: 100%;
+        height: 350px;
+        background: url('../../../assets/images/kids.jpg') center;
+        background-size: cover;
+        background-color: #ffffff;
+    }
+
+    .firstLineOne{
+        display: 'flex';
+        height: 300px;
+        width: 100%;
+    }
+
+    .firstLineTwo {
+        z-index: 5;
+        width: 100%;
+        height: 100%;
+        font-family: 'Open Sans';
+        font-size: large;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .firstLineThree {
+        height: 40%;
+        z-index: 1;
+    }
+
+    .firstLineHeading {
+        font-size: x-large;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .firstLineTextAndButtonSeparator {
+        height: 10%;
+    }
+
+    .firstLineButtons {
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .firstLineButtonsSeparator {
+        width: 2%;
+    }
+
+    .firstLineFinePrint {
+        height: 10%;
+        font-size: small;
+        padding: 10px;
+    }
+}
+
+@media all and (min-width: 1000px){
+    .firstLine {
+        color: #000000;
+        width: 100%;
+        height: 350px;
+        background: url('../../../assets/images/kids.jpg') center;
+        background-size: cover;
+        background-color: #ffffff;
+    }
+
+    .firstLineOne{
+        display: 'flex';
+        height: 300px;
+        width: 100%;
+    }
+
+    .firstLineTwo {
+        z-index: 5;
+        width: 100%;
+        height: 100%;
+        font-family: 'Open Sans';
+        font-size: x-large;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .firstLineThree {
+        height: 40%;
+        z-index: 1;
+    }
+
+    .firstLineHeading {
+        font-size: xx-large;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .firstLineTextAndButtonSeparator {
+        height: 10%;
+    }
+
+    .firstLineButtons {
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .firstLineButtonsSeparator {
+        width: 2%;
+    }
+
+    .firstLineFinePrint {
+        height: 10%;
+        font-size: small;
+        padding: 10px;
+    }
 }

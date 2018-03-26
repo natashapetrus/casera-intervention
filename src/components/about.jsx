@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
 import { HashLink as Link } from 'react-router-hash-link';
-import Fade from 'react-reveal/Fade';
 import './style/about.css';
 import './style/button.css';
 import '../App.css';
@@ -10,7 +9,6 @@ export default class About extends Component{
     render(){
         return(
             <div id='casera' className='aboutBackground'>
-                <Fade bottom>
                     <div className='aboutText' style={{marginTop:'100px'}}>
                         <h1>Tentang Casera</h1>
                         <div>
@@ -38,8 +36,6 @@ export default class About extends Component{
                             </div>
                         </div>
                     </div>
-                </Fade>
-                <Fade bottom>
                     <div className='aboutText'>
                         <h1>Tim Kami</h1>
                         <div>
@@ -63,8 +59,6 @@ export default class About extends Component{
                             Dia juga bertanggungjawab dalam pelatihan dan supervisi psikolog lain serta <i>certified brain &amp; cognitive specialist</i> dalam interpretasi hasil tes serta rekomendasi program.
                         </div>
                     </div>
-                </Fade>
-                <Fade bottom>
                     <div className='aboutText' id='faqs'>
                         <MediaQuery minDeviceWidth={0} maxDeviceWidth={700}>
                             <h1>FAQs</h1>
@@ -94,10 +88,9 @@ export default class About extends Component{
                             Oleh karena itu, anak berkebutuhan khusus membutuhkan pelatihan otak yang mendasar secara intensif dan kuat untuk mengembangkan kemampuan lainnya.
                             <br /><br />
                             <h3><b style={{color: '#ffcc00'}}>&mdash;</b>Masih punya pertanyaan?</h3>
-                            <div className="buttonSlide slideRight buttonLaptop" style={{fontSize:'smaller'}}>HUBUNGI KAMI</div>
+                            <div className="buttonSlide slideRight buttonDevice" style={{fontSize:'smaller'}}>HUBUNGI KAMI</div>
                         </div>
                     </div>
-                </Fade>
             </div>
         );
     }

@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import MediaQuery from 'react-responsive';
-import Fade from 'react-reveal/Fade';
 import Separator from './separator.jsx';
 import './style/assessment.css';
 import './style/button.css';
@@ -11,7 +9,6 @@ export default class Assessment extends Component{
         return(
             <div className='assessmentBackground'>
                 <Separator />
-                <Fade bottom>
                     <div className='assessmentText'>
                         <h1>Assessment</h1>
                         <div>
@@ -34,10 +31,9 @@ export default class Assessment extends Component{
                             <br /><br />Berdasarkan hasil assessment, akan diketahui secara spesifik kemampuan setiap area otak anak dibandingkan dengan anak seusianya, sehingga trainer kami dapat merancang program intervensi yang sesuai dengan kebutuhan.
                             <br /><br />Selain itu, hasil assessment ini juga dapat dijadikan sebagai panduan untuk membantu anak mencapai performa yang maksimal.
                             <br /><br /><br/>
-                            <div className="buttonSlide slideRight buttonLaptop" style={{fontSize:'smaller'}}>HUBUNGI KAMI SEKARANG</div>
+                            <div className="buttonSlide slideRight buttonDevice" style={{fontSize:'smaller'}}>HUBUNGI KAMI SEKARANG</div>
                         </div>
                     </div>
-                </Fade>
             </div>
         );
     }

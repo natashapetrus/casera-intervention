@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import MediaQuery from 'react-responsive';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import ScrollToTop from './components/scrollToTop.jsx';
 import Header from './components/header.jsx';
 import Homepage from './components/homepage.jsx';
@@ -9,8 +8,6 @@ import Program from './components/program.jsx';
 import Assessment from './components/assessment.jsx';
 import Footer from './components/footer.jsx';
 import './App.css';
-
-import logo from './assets/images/logo-header.PNG';
 import './components//style/header.css';
 
 class App extends Component {

@@ -1,18 +1,108 @@
-.secondLineLaptop {
-    width: 100%;
-    height: 100px;
-    padding: 20px;
-    font-size: large;
-    background: linear-gradient(to right, #e18a07, #ffcc00);
+@media all and (min-width:0px){
+    .secondLine {
+        width: 100%;
+        height: 160px;
+        padding-top: 5px;
+        font-size: medium;
+        background: linear-gradient(to right, #e18a07, #ffcc00);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .secondLineTwo {
+        width: 90%;
+    }
+
+    p {
+        font-family: 'Open Sans';
+        font-weight: lighter;
+        color: #ffffff;
+    }
+
+    .checkmark {
+        font-weight: bold;
+        color: #49cc99;
+    }
 }
 
-p {
-    font-family: 'Open Sans';
-    font-weight: lighter;
-    color: #ffffff;
+@media all and (min-width:400px){
+    .secondLine {
+        width: 100%;
+        height: 160px;
+        padding-top: 5px;
+        font-size: medium;
+        background: linear-gradient(to right, #e18a07, #ffcc00);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .secondLineTwo {
+        width: 90%;
+    }
+
+    p {
+        font-family: 'Open Sans';
+        font-weight: lighter;
+        color: #ffffff;
+    }
+
+    .checkmark {
+        font-weight: bold;
+        color: #49cc99;
+    }
 }
 
-.checkmark {
-    font-weight: bold;
-    color: #49cc99;
+@media all and (min-width:700px){
+    .secondLine {
+        width: 100%;
+        height: 110px;
+        padding-top: 5px;
+        font-size: medium;
+        background: linear-gradient(to right, #e18a07, #ffcc00);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        padding-bottom: 0px;
+    }
+
+    .secondLineTwo {
+        width: 90%;
+    }
+
+    p {
+        font-family: 'Open Sans';
+        font-weight: lighter;
+        color: #ffffff;
+    }
+
+    .checkmark {
+        font-weight: bold;
+        color: #49cc99;
+    }
+}
+
+@media all and (min-width:1000px){
+    .secondLine {
+        width: 100%;
+        height: 100px;
+        padding: 20px;
+        font-size: large;
+        background: linear-gradient(to right, #e18a07, #ffcc00);
+    }
+
+    p {
+        font-family: 'Open Sans';
+        font-weight: lighter;
+        color: #ffffff;
+    }
+
+    .checkmark {
+        font-weight: bold;
+        color: #49cc99;
+    }
 }

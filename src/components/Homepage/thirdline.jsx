@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import MediaQuery from 'react-responsive';
 import '../../App.css';
 import '../style/homepage/homepage.css';
 import '../style/homepage/thirdline.css';
@@ -11,10 +10,9 @@ export default class FirstLine extends Component{
     render(){
         return(
             <div>
-                <MediaQuery minDeviceWidth={600}>
-                    <div className="thirdLineLaptop">
+                    <div className="thirdLine">
                         <div className="iOSFix bigScreen">
-                            <div style={{height: '10%', zIndex: 1}}>
+                            <div className="thirdLineHeading">
                                 <h3>PROGRAM KAMI</h3>
                             </div>
                             <Fade bottom cascade>
@@ -56,7 +54,6 @@ export default class FirstLine extends Component{
                             </Fade>       
                         </div>
                     </div>
-                </MediaQuery>
             </div>
         );
     }

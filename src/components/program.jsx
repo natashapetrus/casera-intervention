@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import MediaQuery from 'react-responsive';
-import Fade from 'react-reveal/Fade';
 import './style/program.css';
 import './style/button.css';
 import '../App.css';
@@ -10,20 +9,19 @@ export default class Program extends Component{
     render(){
         return(
             <div className='programBackground'>
-                <Fade bottom>
-                    <div className='programText'>
+                    <div className='programText' style={{marginTop:'100px'}}>
                         <h1>Program</h1>
                         <div>
                         CASERA memiliki satu program unggulan yaitu <b className='emphasis'>Holistic Intervention of Brain</b>.
                         <br />Intervensi otak adalah penanganan yang dilakukan untuk meningkatkan fungsi otak (kognitif).
                         <br />Berdasarkan <i>neuroscience</i>, otak dibagi menjadi beberapa area besar, seperti gambar di bawah ini:
                         <br /><br />
-                        <img src={require("../assets/images/brain_areas.PNG")} id='brainImage' />
+                        <img alt="" src={require("../assets/images/brain_areas.PNG")} id='brainImage' />
                         <br /><br/>
                         Pada dasarnya, setiap area otak memiliki fungsi dan peranannya masing-masing dalam mengatur hal sederhana sampai dengan tugas kompleks yang membutuhkan proses mental yang rumit. Ketika salah satu area otak tidak dapat berfungsi dengan baik, maka akan mempengaruhi performa area lain pada otak. Oleh karena itu, cara terbaik untuk memaksimalkan performa otak adalah memberikan stimulasi intensif secara menyeluruh pada otak.
                         <br /><br />
                         Intervensi holistik dilakukan secara bertahap dengan menitikberatkan pada bagian-bagian yang mendasar kemudian dilanjutkan dengan bagian lain yang lebih kompleks. Penanganan dimulai dari intervensi pada area sensory system, yang merupakan fondasi mendasar anak untuk mengembangkan kemampuan lainnya, seperti kemampuan motorik, kemampuan bina diri, kemampuan berbicara dan berbahasa, kemampuan sosial, regulasi emosi, dan problem solving. Umumnya sumber masalah anak adalah fondasi sensory system yang belum berkembang dengan baik sehingga berdampak pada performa anak secara keseluruhan. Berikut ini merupakan gambar yang menunjukkan tahapan kemampuan otak (Williams dan Shellenbeger):
-                        <br /><img src={require("../assets/images/pyramid-of-learning.PNG")} id='pyramidImage' /> 
+                        <br /><img alt="" src={require("../assets/images/pyramid-of-learning.PNG")} id='pyramidImage' /> 
                             <div id='sub-program'>
                                 <br /><br />
                                 <b style={{fontSize:'larger'}}><i>Holistic Intervention of Brain</i>&nbsp; terbagi menjadi 4 sub-program:</b>
@@ -92,10 +90,9 @@ export default class Program extends Component{
                                 </ol>
                             </div>
                             <br /><br />
-                            <Link to='/assessment'><div className="buttonSlide slideRight buttonLaptop" style={{fontSize:'smaller'}}>KONSULTASI SEKARANG</div></Link>
+                            <Link to='/assessment'><div className="buttonSlide slideRight buttonDevice" style={{fontSize:'smaller'}}>KONSULTASI SEKARANG</div></Link>
                         </div>
                     </div>
-                </Fade>
             </div>
         );
     }
