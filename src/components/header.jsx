@@ -15,7 +15,7 @@ export default class Header extends Component{
         <div>
             <MediaQuery minDeviceWidth={0} maxDeviceWidth={600}>            
                 <div style={{position:'fixed', top: 0, left: 0, zIndex: 100, width: '100%', height: '50px', paddingTop:'10px', backgroundColor: '#ffffff', position: 'fixed', top:0, left:0, borderBottom:'1px solid #ebebeb', alignItems: 'center', alignContent:'center', justifyContent: 'center'}}>
-                    <img src={logo} alt="casera-intervention-logo" style={{maxWidth: '45%', height: 'auto', maxHeight: '100%'}} />
+                  <NavLink exact={true} onClick={this.forceUpdate} to="/"><img src={logo} alt="casera-intervention-logo" style={{maxWidth: '45%', height: 'auto', maxHeight: '100%'}} /></NavLink>
                 </div> 
                 <Menu left styles={styles}>
                   <NavLink exact={true} onClick={this.forceUpdate} to="/" activeClassName='active'>HOME</NavLink>
