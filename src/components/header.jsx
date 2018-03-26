@@ -16,14 +16,14 @@ export default class Header extends Component{
             <MediaQuery minDeviceWidth={601} values={{ deviceWidth: 1600 }}>
                 <div style={{width: '100%', height: '50px', display: 'flex', alignItems:'center', justifyContent: 'center', overflow:'hidden'}}>           
                     <div style={{width:'20%', height: '100%', backgroundColor:'#ffffff'}}>
-                      <img src={logo} alt="" style={{objectFit:'contain', maxWidth:'100%', height: '100%', borderRadius:'0px'}}/>
+                      <NavLink exact={true} to="/"><img src={logo} alt="" style={{objectFit:'contain', maxWidth:'100%', height: '100%', borderRadius:'0px'}}/></NavLink>
                     </div>
                     <div className='topMenuNavigationBar' style={{width:'80%', height: '100%'}}>
                       <div className='topMenuText'>
                         <NavLink exact={true} to="/" activeClassName='active'>HOME</NavLink>
                       </div>
                       <div className='topMenuText'>
-                        TENTANG&nbsp;KAMI
+                        <NavLink exact={true} to="/about" activeClassName='active'>TENTANG&nbsp;KAMI</NavLink>
                       </div>
                       <div className='topMenuText'>
                         <NavLink to="/program" activeClassName='active'>PROGRAM</NavLink>

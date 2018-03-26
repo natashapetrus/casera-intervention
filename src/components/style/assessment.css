@@ -15,6 +15,42 @@
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 50px;
+        font-size: 15px;
+    }
+
+    .assessmentButtonText {
+        background-color: #ffcc00;
+        border: 5px solid #ffcc00;
+        border-radius: 5px;
+        color: #ffffff;
+        letter-spacing: 1px;
+    }
+
+    .types {
+        background-color:#ffffff;
+        padding: 15px; 
+        border-radius: 15px;
+    }
+}
+
+@media all and (min-width: 400px) {
+    .assessmentBackground {
+        color: #000000;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        background: url('../../assets/images/child-computer-cute-159848.png') center no-repeat;
+        background-size: cover;
+        background-color: #ffffff;
+        overflow: hidden;
+        font-size: smaller;
+    }
+
+    .assessmentText {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 50px;
+        font-size: 16px;
     }
 
     .assessmentButtonText {
@@ -48,6 +84,7 @@
         padding-left: 100px;
         padding-right: 100px;
         padding-bottom: 70px;
+        font-size: 17px;
     }
 
     .assessmentButtonText {
@@ -81,6 +118,7 @@
         padding-left: 170px;
         padding-right: 170px;
         padding-bottom: 100px;
+        font-size: 17px;
     }
 
     .assessmentButtonText {

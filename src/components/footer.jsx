@@ -26,7 +26,8 @@ export default class Footer extends Component{
                             <li><a className="soc-mail soc-icon-last" href="mailto:test@caseraintervention.com"></a></li>
                         </ul>
                     </div>
-                    <div className="footerSection">
+                    <div className="footerSection" id="madeBy" style={{fontSize:'small', textAlign: 'right'}}>
+                        <a href="https://natashapetrus.com" target="_blank">Coded with <b style={{color:'red'}}>&hearts;</b>&nbsp;&nbsp;</a>
                     </div>
                 </div>
             </div>

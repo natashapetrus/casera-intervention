@@ -1,0 +1,153 @@
+@media all and (min-width: 0px){    
+    .aboutBackground {
+        color: #000000;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        background: url('../../assets/images/accurate-boy-build-298825.png') repeat-y;
+        background-color: #ffffff;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .aboutText {
+        background-color: #ffffff;
+        margin-top: 0px;
+        margin: 10px;
+        padding: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-radius: 30px;
+        font-size: 15px;
+    }
+    
+    .aboutButtonText {
+        background-color: #ffcc00;
+        border: 5px solid #ffcc00;
+        border-radius: 5px;
+        color: #ffffff;
+        letter-spacing: 1px;
+    }
+}
+
+@media all and (min-width: 400px){    
+    .aboutBackground {
+        color: #000000;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        background: url('../../assets/images/accurate-boy-build-298825.png') repeat-y;
+        background-color: #ffffff;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .aboutText {
+        background-color: #ffffff;
+        margin-top: 0px;
+        margin: 20px;
+        padding: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-radius: 50px;
+        font-size: 16px;
+    }
+    
+    .aboutButtonText {
+        background-color: #ffcc00;
+        border: 5px solid #ffcc00;
+        border-radius: 5px;
+        color: #ffffff;
+        letter-spacing: 1px;
+    }
+}
+
+@media all and (min-width: 700px){    
+    .aboutBackground {
+        color: #000000;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        background: url('../../assets/images/accurate-boy-build-298825.png') center no-repeat;
+        background-color: #ffffff;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .aboutText {
+        background-color: #ffffff;
+        margin: 50px;
+        margin-top: 0px;
+        padding: 50px;
+        padding-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 50px;
+        font-size: 17px;
+    }
+    
+    .aboutButtonText {
+        background-color: #ffcc00;
+        border: 5px solid #ffcc00;
+        border-radius: 5px;
+        color: #ffffff;
+        letter-spacing: 1px;
+    }
+}
+
+@media all and (min-width: 1000px){    
+    .aboutBackground {
+        color: #000000;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        background: url('../../assets/images/accurate-boy-build-298825.png') center no-repeat;
+        background-color: #ffffff;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .aboutText {
+        background-color: #ffffff;
+        margin: 100px;
+        padding: 100px;
+        padding-top: 50px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        border-radius: 50px;
+        font-size: 17px;
+    }
+    
+    .aboutButtonText {
+        background-color: #ffcc00;
+        border: 5px solid #ffcc00;
+        border-radius: 5px;
+        color: #ffffff;
+        letter-spacing: 1px;
+    }
+}
+
+#mission ol {
+    list-style-position: inside;
+    text-align: center;
+    display: inline-block;
+    columns: 1;
+    -moz-columns: 1;
+    -webkit-columns: 1;
+}
+
+#mission li {
+    text-align: left;
+}

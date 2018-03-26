@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { HashLink } from 'react-router-hash-link';
 import MediaQuery from 'react-responsive';
 import Fade from 'react-reveal/Fade';
 import '../../App.css';
@@ -20,7 +21,7 @@ export default class SecondLine extends Component{
                             <br /><br />&nbsp;&nbsp;Apa itu pelatihan otak?
                             <br /><br />&nbsp;&nbsp;Siapa yang membutuhkannya?
                             <br />
-                            <div className="buttonSlide slideRight buttonLaptop" style={{marginTop:'30px'}}>BACA SELENGKAPNYA</div>
+                            <HashLink to="/about#faqs"><div className="buttonSlide slideRight buttonLaptop" style={{marginTop:'30px'}}>BACA SELENGKAPNYA</div></HashLink>
                         </div>
                     </Fade>
                 </MediaQuery>
