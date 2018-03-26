@@ -90,7 +90,7 @@ export default class Program extends Component{
                                 </ol>
                             </div>
                             <br /><br />
-                            <Link to='/assessment'><div className="buttonSlide slideRight buttonDevice" style={{fontSize:'smaller'}}>KONSULTASI SEKARANG</div></Link>
+                            <div className="buttonSlide slideRight buttonDevice" style={{fontSize:'smaller'}}>KONSULTASI SEKARANG</div>
                         </div>
                     </div>
             </div>

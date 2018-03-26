@@ -13,8 +13,16 @@ a {
   color: #808080;
 }
 
-a:hover{
-  color: #000000;
+@media all and (min-width:0px){
+  a:hover{
+    color: #808080;
+  }
+}
+
+@media all and (min-width:601px){
+  a:hover{
+    color: #000000;
+  }
 }
 
 p.heading {

@@ -12,9 +12,26 @@ import Assessment from './assessment.jsx';
 export default class Header extends Component{
     render(){
         return(
-        <div style={{position: 'fixed', width: '100%', top: 0, left: 0, zIndex: 100}}>
-            <MediaQuery minDeviceWidth={601} values={{ deviceWidth: 1600 }}>
-                <div style={{width: '100%', height: '50px', display: 'flex', alignItems:'center', justifyContent: 'center', overflow:'hidden'}}>           
+        <div>
+            <MediaQuery minDeviceWidth={0} maxDeviceWidth={600}>            
+                <div style={{position:'fixed', top: 0, left: 0, zIndex: 100, width: '100%', height: '50px', paddingTop:'10px', backgroundColor: '#ffffff', position: 'fixed', top:0, left:0, borderBottom:'1px solid #ebebeb', alignItems: 'center', alignContent:'center', justifyContent: 'center'}}>
+                    <img src={logo} alt="casera-intervention-logo" style={{maxWidth: '45%', height: 'auto', maxHeight: '100%'}} />
+                </div> 
+                <Menu left styles={styles}>
+                  <NavLink exact={true} onClick={this.forceUpdate} to="/" activeClassName='active'>HOME</NavLink>
+                  <a style={{lineHeight:'10px'}}>&nbsp;</a>
+                  <NavLink onClick={this.forceUpdate} to="/about" activeClassName='active'>TENTANG&nbsp;KAMI</NavLink>
+                  <a style={{lineHeight:'10px'}}>&nbsp;</a>
+                  <NavLink onClick={this.forceUpdate} to="/program" activeClassName='active'>PROGRAM</NavLink>
+                  <a style={{lineHeight:'10px'}}>&nbsp;</a>
+                  <NavLink onClick={this.forceUpdate} to="/assessment" activeClassName='active'>ASSESSMENT</NavLink>
+                  <a style={{lineHeight:'10px'}}>&nbsp;</a>
+                  <a className='accentButton'>HUBUNGI&nbsp;KAMI</a>
+                </Menu>    
+            </MediaQuery>
+            
+            <MediaQuery minDeviceWidth={601}>
+                <div style={{position:'fixed', width:'100%', top:0, left:0, zIndex: 100, width: '100%', height: '50px', display: 'flex', alignItems:'center', justifyContent: 'center', overflow:'hidden'}}>           
                     <div style={{width:'20%', height: '100%', backgroundColor:'#ffffff'}}>
                       <NavLink exact={true} to="/"><img src={logo} alt="" style={{objectFit:'contain', maxWidth:'100%', height: '100%', borderRadius:'0px'}}/></NavLink>
                     </div>
@@ -23,7 +40,7 @@ export default class Header extends Component{
                         <NavLink exact={true} to="/" activeClassName='active'>HOME</NavLink>
                       </div>
                       <div className='topMenuText'>
-                        <NavLink exact={true} to="/about" activeClassName='active'>TENTANG&nbsp;KAMI</NavLink>
+                        <NavLink to="/about" activeClassName='active'>TENTANG&nbsp;KAMI</NavLink>
                       </div>
                       <div className='topMenuText'>
                         <NavLink to="/program" activeClassName='active'>PROGRAM</NavLink>
@@ -36,28 +53,6 @@ export default class Header extends Component{
                       </div>
                     </div>
                 </div>
-            </MediaQuery>
-            <MediaQuery minDeviceWidth={401} maxDeviceWidth={600} values={{ deviceWidth: 1600 }}>            
-                <div style={{width: '100%', height: '50px', paddingTop:'10px', backgroundColor: '#ffffff', position: 'fixed', top:0, left:0, borderBottom:'1px solid #ebebeb', alignItems: 'center', alignContent:'center', justifyContent: 'center'}}>
-                    <img src={logo} alt="casera-intervention-logo" style={{maxWidth: '45%', height: 'auto', maxHeight: '100%'}} />
-                </div> 
-                <Menu left styles={styles}>
-                    <a id="home" className="menu-item" href="">About Us</a>
-                    <a id="about" className="menu-item" href="">Our Programs</a>
-                    <a id="contact" className="menu-item" href="">Testimonials</a>
-                    <a id="settings" className="menu-item" href="">Contact</a>
-                </Menu>    
-            </MediaQuery>
-            <MediaQuery maxDeviceWidth={400} values={{ deviceWidth: 1600 }}>            
-                <div style={{width: '100%', height: '40px', paddingTop: '10px', backgroundColor: '#ffffff', position: 'fixed', top:0, left:0, borderBottom:'1px solid #ebebeb', overflow:'hidden'}}>
-                    <img src={logo} alt="casera-intervention-logo" style={{maxWidth: '45%', height: 'auto', maxHeight: '100%'}} />
-                </div> 
-                <Menu left styles={stylesSmall}>
-                    <a id="home" className="menu-item" href="">About Us</a>
-                    <a id="about" className="menu-item" href="">Our Programs</a>
-                    <a id="contact" className="menu-item" href="">Testimonials</a>
-                    <a id="settings" className="menu-item" href="">Contact</a>
-                </Menu>    
             </MediaQuery>
         </div>   
         );
