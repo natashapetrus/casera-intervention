@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import MediaQuery from 'react-responsive';
 import Fade from 'react-reveal/Fade';
 import Separator from './separator.jsx';
@@ -24,12 +24,12 @@ export default class Program extends Component{
                     <br /><br />
                     Intervensi holistik dilakukan secara bertahap dengan menitikberatkan pada bagian-bagian yang mendasar kemudian dilanjutkan dengan bagian lain yang lebih kompleks. Penanganan dimulai dari intervensi pada area sensory system, yang merupakan fondasi mendasar anak untuk mengembangkan kemampuan lainnya, seperti kemampuan motorik, kemampuan bina diri, kemampuan berbicara dan berbahasa, kemampuan sosial, regulasi emosi, dan problem solving. Umumnya sumber masalah anak adalah fondasi sensory system yang belum berkembang dengan baik sehingga berdampak pada performa anak secara keseluruhan. Berikut ini merupakan gambar yang menunjukkan tahapan kemampuan otak (Williams dan Shellenbeger):
                     <br /><img src={require("../assets/images/pyramid-of-learning.PNG")} id='pyramidImage' /> 
-                    <br /><br />
-                        <div className='types'>
+                        <div id='sub-program'>
+                            <br /><br />
                             <b style={{fontSize:'larger'}}><i>Holistic Intervention of Brain</i>&nbsp; terbagi menjadi 4 sub-program:</b>
                             <br />
                             <br/>
-                            <div id='SensoryMotorIntervention'>
+                            <div id='sensory-motor-intervention'>
                                 <b className='programButtonText'><i>Sensory-Motor Intervention</i> (SMI)</b>
                                 <br /><div style={{height:'5px'}} />Program ini <b className='emphasis'>berfokus pada stimulasi intensif untuk memperbaiki/meningkatkan fungsi <i>sensory system</i></b> pada anak. <i>Sensory system</i> yang berfungsi dengan baik akan menunjang anak untuk mengembangkan kemampuan lain, seperti kemampuan motorik, kemampuan visual, dan kemampuan auditori. <b className='emphasis'>Semua aktivitas dalam program ini merupakan aktivitas fisik</b> sehingga anak disarankan untuk menggunakan pakaian yang nyaman dan leluasa ketika menjalani program ini. 
                                 <br /><br />
