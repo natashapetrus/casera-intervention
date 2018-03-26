@@ -1,20 +1,61 @@
-#footer {
-  width: 100%;
-  height: 50px;
-  color: #ffffff;
-  background: black;
-  display: flex;
-  margin-bottom: 0%;
-  padding-bottom: 0%;
-  overflow: hidden;
+@media all and (min-width:0px){
+  #footer {
+    width: 100%;
+    height: 130px;
+    color: #ffffff;
+    background: black;
+    display: inline-block;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    overflow: hidden;
+  }
+
+  .footerSection {
+    width: 100%;
+    height: 33%;
+    line-height: 50px;
+    text-align: center;
+    padding-left: 10px;
+    overflow: hidden;
+  }
+
+  #madeBy {
+    font-size: small;
+    text-align: center;
+  }
 }
 
-.footerSection {
-  width: 33%;
-  height: 100%;
-  line-height: 50px;
-  text-align: left;
-  padding-left: 10px;
+@media all and (min-width:601px){
+  #footer {
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    background: black;
+    display: flex;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    overflow: hidden;
+  } 
+
+  .footerSection {
+    width: 33%;
+    height: 100%;
+    line-height: 50px;
+    text-align: left;
+    padding-left: 10px;
+    overflow-x: visible;
+  }  
+
+  #madeBy {
+    font-size: small;
+    text-align: right;
+  }  
+
+  .soc a:hover {
+    z-index: 2;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
 }
 
 #madeBy a {
@@ -89,12 +130,6 @@
   font-size: 25px;
   margin-right: 13px;
   color: #ffffff;
-}
-
-.soc a:hover {
-  z-index: 2;
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
 }
 
 .soc-icon-last{
