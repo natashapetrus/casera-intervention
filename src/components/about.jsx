@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
-import { HashLink as Link } from 'react-router-hash-link';
 import './style/about.css';
 import './style/button.css';
 import '../App.css';

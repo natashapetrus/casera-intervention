@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import MediaQuery from 'react-responsive';
-import Fade from 'react-reveal/Fade';
 import FirstLine from '../components/Homepage/firstline.jsx';
 import SecondLine from '../components/Homepage/secondline.jsx';
 import ThirdLine from '../components/Homepage/thirdline.jsx';
