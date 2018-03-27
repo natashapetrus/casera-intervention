@@ -15,9 +15,6 @@ class App extends Component {
   render() {
     return (
       <Router onUpdate={() => window.scrollTo(0, 0)}>
-        <head>
-          <meta name="google-site-verification" content="WNdYqa5gB2kTCVrcXHUnWxBHPPzmmE1GXJsMUuJSGk0" />
-        </head>
         <ScrollToTop>
           <div className="App">
             <div id="top"><Header /></div>
