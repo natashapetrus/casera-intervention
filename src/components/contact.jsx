@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import MediaQuery from 'react-responsive';
-import './style/program.css';
+import './style/contact.css';
 import './style/button.css';
 import '../App.css';
 
 export default class Program extends Component{
     render(){
         return(
-            <div className='programBackground'>
-                    <div className='programText' style={{marginTop:'100px'}}>
+            <div className='contactBackground'>
+                    <div className='contactText' style={{marginTop:'100px'}}>
                         <h1>Hubungi Kami</h1>
                         <div>
                             <br />
@@ -25,9 +23,9 @@ export default class Program extends Component{
                             <br /><br />
                             <hr style={{borderColor: '#ffcc00'}}/>
                             <br />
-                            <b>IG</b>: @caseraintervention
-                            <br /><b>FB</b>: Casera Intervention
-                            <br /><b>E-mail</b>: info@caseraintervention.com
+                            <b>IG</b>: <a rel="noopener noreferrer" href="https://www.instagram.com/caseraintervention/" target="_blank">@caseraintervention</a>
+                            <br /><b>FB</b>: <a href="https://www.facebook.com/caseraintervention" target="_blank" rel="noopener noreferrer">Casera Intervention</a>
+                            <br /><b>E-mail</b>: <a rel="noopener noreferrer" href="mailto:test@caseraintervention.com">info@caseraintervention.com</a>
                         </div>
                     </div>
             </div>

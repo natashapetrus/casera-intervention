@@ -1,0 +1,140 @@
+@media all and (min-width: 0px) {
+    .contactBackground {
+        color: #000000;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        background: url('../../assets/images/bear-bench-child-207891.png') repeat-y;
+        background-color: #ffffff;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contactText {
+        background-color: #ffffff;
+        margin: 10px;
+        padding: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-radius: 30px;
+        font-size: 15px;
+    }
+
+    .contactButtonText {
+        background-color: #ffcc00;
+        border: 5px solid #ffcc00;
+        border-radius: 5px;
+        color: #ffffff;
+        letter-spacing: 1px;
+    }
+}
+
+@media all and (min-width: 400px) {
+    .contactBackground {
+        color: #000000;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        background: url('../../assets/images/bear-bench-child-207891.png') repeat-y;
+        background-color: #ffffff;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: smaller;
+    }
+
+    .contactText {
+        background-color: #ffffff;
+        margin: 20px;
+        padding: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-radius: 50px;
+        font-size: 16px;
+    }
+
+    .contactButtonText {
+        background-color: #ffcc00;
+        border: 5px solid #ffcc00;
+        border-radius: 5px;
+        color: #ffffff;
+        letter-spacing: 1px;
+    }
+}
+
+@media all and (min-width: 700px){
+    .contactBackground {
+        color: #000000;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        background: url('../../assets/images/bear-bench-child-207891.png') center no-repeat;
+        background-color: #ffffff;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .contactText {
+        background-color: #ffffff;
+        margin: 50px;
+        padding: 50px;
+        padding-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 50px;
+        font-size: 16px;
+    }
+    
+    .contactButtonText {
+        background-color: #ffcc00;
+        border: 5px solid #ffcc00;
+        border-radius: 5px;
+        color: #ffffff;
+        letter-spacing: 1px;
+    }
+}
+
+@media all and (min-width: 1000px) {    
+    .contactBackground {
+        color: #000000;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        background: url('../../assets/images/bear-bench-child-207891.png') center no-repeat;
+        background-color: #ffffff;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .contactText {
+        background-color: #ffffff;
+        margin: 100px;
+        padding: 100px;
+        padding-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 50px;
+        font-size: 16px;
+    }
+    
+    .contactButtonText {
+        background-color: #ffcc00;
+        border: 5px solid #ffcc00;
+        border-radius: 5px;
+        color: #ffffff;
+        letter-spacing: 1px;
+    }
+}
+
+li {
+    text-align: left;
+}
