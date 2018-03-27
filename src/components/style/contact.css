@@ -5,7 +5,7 @@
         max-width: 100%;
         height: auto;
         overflow: hidden;
-        background: url('../../assets/images/bear-bench-child-207891.png') repeat-y;
+        background: url('../../assets/images/bear-bench-child-207891.png') repeat;
         background-color: #ffffff;
         align-content: center;
         align-items: center;
@@ -39,7 +39,7 @@
         max-width: 100%;
         height: auto;
         overflow: hidden;
-        background: url('../../assets/images/bear-bench-child-207891.png') repeat-y;
+        background: url('../../assets/images/bear-bench-child-207891.png') repeat;
         background-color: #ffffff;
         align-content: center;
         align-items: center;
@@ -74,7 +74,7 @@
         max-width: 100%;
         height: auto;
         overflow: hidden;
-        background: url('../../assets/images/bear-bench-child-207891.png') center no-repeat;
+        background: url('../../assets/images/bear-bench-child-207891.png') repeat;
         background-color: #ffffff;
         align-content: center;
         align-items: center;
@@ -108,7 +108,7 @@
         max-width: 100%;
         height: auto;
         overflow: hidden;
-        background: url('../../assets/images/bear-bench-child-207891.png') center no-repeat;
+        background: url('../../assets/images/bear-bench-child-207891.png') repeat;
         background-color: #ffffff;
         align-content: center;
         align-items: center;
