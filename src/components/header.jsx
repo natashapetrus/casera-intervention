@@ -6,6 +6,20 @@ import logo from '../assets/images/logo-header.PNG';
 import './style/header.css';
 
 export default class Header extends Component{
+  constructor (props) {
+    super(props)
+    this.state = {
+      menuOpen: false
+    }
+  }
+  
+  closeMenu () {
+    this.setState({menuOpen: false})
+  }
+  
+  toggleMenu () {
+    this.setState({menuOpen: !this.state.menuOpen})
+  }
     render(){
         return(
         <div>
@@ -13,16 +27,18 @@ export default class Header extends Component{
                 <div style={{position:'fixed', top: 0, left: 0, zIndex: 100, width: '100%', height: '50px', padding: '0px', backgroundColor: '#ffffff', borderBottom:'1px solid #ebebeb', alignItems: 'center', alignContent:'center', justifyContent: 'center'}}>
                   <NavLink exact={true} onClick={this.forceUpdate} to="/"><img src={logo} alt="casera-intervention-logo" style={{height: '100%', maxWidth:'50%'}} /></NavLink>
                 </div> 
-                <Menu left styles={stylesSmall}>
-                  <NavLink exact={true} onClick={this.forceUpdate} to="/" activeClassName='active'>HOME</NavLink>
-                  <a style={{lineHeight:'10px'}}>&nbsp;</a>
-                  <NavLink onClick={this.forceUpdate} to="/about" activeClassName='active'>TENTANG&nbsp;KAMI</NavLink>
-                  <a style={{lineHeight:'10px'}}>&nbsp;</a>
-                  <NavLink onClick={this.forceUpdate} to="/program" activeClassName='active'>PROGRAM</NavLink>
-                  <a style={{lineHeight:'10px'}}>&nbsp;</a>
-                  <NavLink onClick={this.forceUpdate} to="/assessment" activeClassName='active'>ASSESSMENT</NavLink>
-                  <a style={{lineHeight:'10px'}}>&nbsp;</a>
-                  <NavLink onClick={this.forceUpdate} to="/contact"><b className='accentButton'>HUBUNGI&nbsp;KAMI</b></NavLink>
+                <Menu
+                  isOpen={this.state.menuOpen}
+                  left styles={stylesSmall}>
+                  <NavLink exact={true} to="/" activeClassName='active'>HOME</NavLink>
+                  <a onClick={() => this.closeMenu()} style={{lineHeight:'10px'}}>&nbsp;</a>
+                  <NavLink to="/about" activeClassName='active'>TENTANG&nbsp;KAMI</NavLink>
+                  <a onClick={() => this.closeMenu()} style={{lineHeight:'10px'}}>&nbsp;</a>
+                  <NavLink to="/program" activeClassName='active'>PROGRAM</NavLink>
+                  <a onClick={() => this.closeMenu()} style={{lineHeight:'10px'}}>&nbsp;</a>
+                  <NavLink to="/assessment" activeClassName='active'>ASSESSMENT</NavLink>
+                  <a onClick={() => this.closeMenu()} style={{lineHeight:'10px'}}>&nbsp;</a>
+                  <NavLink to="/contact"><b className='accentButton'>HUBUNGI&nbsp;KAMI</b></NavLink>
                 </Menu>    
             </MediaQuery>
             

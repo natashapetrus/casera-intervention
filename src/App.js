@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ScrollToTop from './components/scrollToTop.jsx';
 import Header from './components/header.jsx';
 import Homepage from './components/homepage.jsx';
@@ -19,11 +19,13 @@ class App extends Component {
         <div className="App">
           <div id="top"><Header /></div>
           <div style={{height:'50px'}} />
-          <Route exact path="/" component={Homepage} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/program" component={Program} />
-          <Route path="/assessment" component={Assessment} />
-          <Route path="/contact" component={Contact} />
+          <Switch>
+            <Route exact path="/" component={Homepage} />
+            <Route path="/about" component={About} />
+            <Route path="/program" component={Program} />
+            <Route path="/assessment" component={Assessment} />
+            <Route path="/contact" component={Contact} />
+          </Switch>
           <div id="contact"><Footer /></div>
         </div>
       </ScrollToTop>
