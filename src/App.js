@@ -6,6 +6,7 @@ import Homepage from './components/homepage.jsx';
 import About from './components/about.jsx';
 import Program from './components/program.jsx';
 import Assessment from './components/assessment.jsx';
+import Contact from './components/contact.jsx';
 import Footer from './components/footer.jsx';
 import './App.css';
 import './components//style/header.css';
@@ -22,6 +23,7 @@ class App extends Component {
             <Route exact path="/about" component={About} />
             <Route exact path="/program" component={Program} />
             <Route path="/assessment" component={Assessment} />
+            <Route path="/contact" component={Contact} />
             <div id="contact"><Footer /></div>
           </div>
         </ScrollToTop>

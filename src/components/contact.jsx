@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Separator from './separator.jsx';
 import './style/assessment.css';
 import './style/button.css';
 import '../App.css';
 
-export default class Assessment extends Component{
+export default class Contact extends Component{
     render(){
         return(
             <div className='assessmentBackground'>
                 <Separator />
                     <div className='assessmentText'>
-                        <h1>Assessment</h1>
+                        <h1>CONTACT</h1>
                         <div>
                             Assessment adalah serangkaian alat tes untuk mengetahui kemampuan seseorang terhadap suatu kompetensi.
                             <br />Assessment yang dilakukan oleh CASERA berupa assessment yang bersifat psikologis dan neurosains.
@@ -32,7 +31,7 @@ export default class Assessment extends Component{
                             <br /><br />Berdasarkan hasil assessment, akan diketahui secara spesifik kemampuan setiap area otak anak dibandingkan dengan anak seusianya, sehingga trainer kami dapat merancang program intervensi yang sesuai dengan kebutuhan.
                             <br /><br />Selain itu, hasil assessment ini juga dapat dijadikan sebagai panduan untuk membantu anak mencapai performa yang maksimal.
                             <br /><br /><br/>
-                            <Link to="/contact"><div className="buttonSlide slideRight buttonDevice" style={{fontSize:'smaller'}}>HUBUNGI KAMI SEKARANG</div></Link>
+                            <div className="buttonSlide slideRight buttonDevice" style={{fontSize:'smaller'}}>HUBUNGI KAMI SEKARANG</div>
                         </div>
                     </div>
             </div>

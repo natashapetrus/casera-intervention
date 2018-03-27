@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import MediaQuery from 'react-responsive';
 import './style/about.css';
 import './style/button.css';
@@ -87,7 +88,7 @@ export default class About extends Component{
                             Oleh karena itu, anak berkebutuhan khusus membutuhkan pelatihan otak yang mendasar secara intensif dan kuat untuk mengembangkan kemampuan lainnya.
                             <br /><br />
                             <h3><b style={{color: '#ffcc00'}}>&mdash;</b>Masih punya pertanyaan?</h3>
-                            <div className="buttonSlide slideRight buttonDevice" style={{fontSize:'smaller'}}>HUBUNGI KAMI</div>
+                            <Link to="/contact"><div className="buttonSlide slideRight buttonDevice" style={{fontSize:'smaller'}}>HUBUNGI KAMI</div></Link>
                         </div>
                     </div>
             </div>

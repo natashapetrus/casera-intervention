@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import MediaQuery from 'react-responsive';
 import './style/program.css';
 import './style/button.css';
@@ -89,7 +90,7 @@ export default class Program extends Component{
                                 </ol>
                             </div>
                             <br /><br />
-                            <div className="buttonSlide slideRight buttonDevice" style={{fontSize:'smaller'}}>KONSULTASI SEKARANG</div>
+                            <Link to="/contact"><div className="buttonSlide slideRight buttonDevice" style={{fontSize:'smaller'}}>KONSULTASI SEKARANG</div></Link>
                         </div>
                     </div>
             </div>
