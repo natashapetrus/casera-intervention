@@ -30,6 +30,11 @@
     background-color:#49cc99;
     border:8px solid #49cc99;
     border-radius:5px;
+    font-weight: 100;
     color:#ffffff;
+}
+
+.accentButton:hover {
+    color: #000000;
 }
   

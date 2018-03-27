@@ -50,8 +50,8 @@ export default class About extends Component{
                             Beliau bertannggungjawab dalam hal pengembangan program, pelatihan dan supervisi setiap trainer di CASERA, serta dalam hal management.
                         </div>
                         <div>
-                            <h3><b style={{color: '#ffcc00'}}>&mdash;</b> Widya Thresia, M. Psi., Psikolog, CGA</h3>
-                            <h4>Certified Brain &amp; Cognitive Specialist</h4>
+                            <h3><b style={{color: '#ffcc00'}}>&mdash;</b> Widya Thresia, M. Psi.</h3>
+                            <h4>Psikolog, CGA, Certified Brain &amp; Cognitive Specialist</h4>
                             Widya sebagai Psikolog anak memiliki pendekatan kognitif dan <i>neuroscience</i> dalam menangani anak yang memiliki masalah.
                             Beliau bersama dengan Bapak Christopher mendirikan CASERA pada tahun 2018.
                             Dia memiliki keinginan yang sama, yaitu untuk membantu anak-anak yang ada di Jakarta mencapai potensi yang mereka miliki.

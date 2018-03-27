@@ -1,37 +1,33 @@
 import React, { Component } from 'react';
-import Separator from './separator.jsx';
-import './style/assessment.css';
+import { Link } from 'react-router-dom';
+import MediaQuery from 'react-responsive';
+import './style/program.css';
 import './style/button.css';
 import '../App.css';
 
-export default class Contact extends Component{
+export default class Program extends Component{
     render(){
         return(
-            <div className='assessmentBackground'>
-                <Separator />
-                    <div className='assessmentText'>
-                        <h1>CONTACT</h1>
+            <div className='programBackground'>
+                    <div className='programText' style={{marginTop:'100px'}}>
+                        <h1>Hubungi Kami</h1>
                         <div>
-                            Assessment adalah serangkaian alat tes untuk mengetahui kemampuan seseorang terhadap suatu kompetensi.
-                            <br />Assessment yang dilakukan oleh CASERA berupa assessment yang bersifat psikologis dan neurosains.
+                            <br />
+                            <h3><b style={{color: '#ffcc00'}}>&mdash;</b> Widya Thresia, M. Psi.</h3>
+                            <h4>Psikolog, CGA, Certified Brain &amp; Cognitive Specialist</h4>
+                            +6281905638230
+                            <br />widya@caseraintervention.com
                             <br /><br />
-                            <div className='assessmentTypes'>
-                                <b style={{fontSize:'larger'}}>CASERA memiliki 3 macam assessment yakni:</b>
-                                <br />
-                                <br/>
-                                <b className='assessmentButtonText'>Cognitive/IQ Assessment</b>
-                                <br /><div style={{height:'5px'}} />Alat tes yang <b className='emphasis'>mengukur kecerdasan</b> seseorang dengan menggunakan tes yang sudah terstandarisasi. 
-                                <br /><br />
-                                <b className='assessmentButtonText'>Brain Assessment</b>
-                                <br /><div style={{height:'5px'}} />Serangkaian alat tes yang <b className='emphasis'>mengukur semua area otak</b> secara keseluruhan dengan menggunakan tes yang sudah terstandarisasi. 
-                                <br /><br />
-                                <b className='assessmentButtonText'>Comprehensive Clinical Assessment</b>
-                                <br /><div style={{height:'5px'}} />Serangkaian assessment dengan menggunakan berbagai standardized test untuk <b className='emphasis'>mengukur kemampuan semua area otak dan tingkat kognisi serta kondisi psikososial</b> anak.
-                            </div>
-                            <br /><br />Berdasarkan hasil assessment, akan diketahui secara spesifik kemampuan setiap area otak anak dibandingkan dengan anak seusianya, sehingga trainer kami dapat merancang program intervensi yang sesuai dengan kebutuhan.
-                            <br /><br />Selain itu, hasil assessment ini juga dapat dijadikan sebagai panduan untuk membantu anak mencapai performa yang maksimal.
-                            <br /><br /><br/>
-                            <div className="buttonSlide slideRight buttonDevice" style={{fontSize:'smaller'}}>HUBUNGI KAMI SEKARANG</div>
+                            <h3><b style={{color: '#ffcc00'}}>&mdash;</b> Christopher, S. Psi.</h3>
+                            <h4>Director, Certified Brain &amp; Cognitive Specialist, Brain &amp; Cognitive Trainer</h4>
+                            +6281703665116
+                            <br />christopher@caseraintervention.com
+                            <br /><br />
+                            <hr style={{borderColor: '#ffcc00'}}/>
+                            <br />
+                            <b>IG</b>: @caseraintervention
+                            <br /><b>FB</b>: Casera Intervention
+                            <br /><b>E-mail</b>: info@caseraintervention.com
                         </div>
                     </div>
             </div>

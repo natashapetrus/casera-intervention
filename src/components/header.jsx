@@ -22,7 +22,7 @@ export default class Header extends Component{
                   <a style={{lineHeight:'10px'}}>&nbsp;</a>
                   <NavLink onClick={this.forceUpdate} to="/assessment" activeClassName='active'>ASSESSMENT</NavLink>
                   <a style={{lineHeight:'10px'}}>&nbsp;</a>
-                  <NavLink to="/contact"><a className='accentButton'>HUBUNGI&nbsp;KAMI</a></NavLink>
+                  <NavLink onClick={this.forceUpdate} to="/contact"><b className='accentButton'>HUBUNGI&nbsp;KAMI</b></NavLink>
                 </Menu>    
             </MediaQuery>
             
@@ -45,7 +45,7 @@ export default class Header extends Component{
                         <NavLink to="/assessment" activeClassName='active'>ASSESSMENT</NavLink>
                       </div>
                       <div className='topMenuText'>
-                        <NavLink to="/contact"><a className='accentButton'>HUBUNGI&nbsp;KAMI</a></NavLink>
+                        <NavLink to="/contact"><b className='accentButton'>HUBUNGI&nbsp;KAMI</b></NavLink>
                       </div>
                     </div>
                 </div>
