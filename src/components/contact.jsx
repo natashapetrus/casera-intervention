@@ -25,7 +25,7 @@ export default class Program extends Component{
                             <br />
                             <b>IG</b>: <a rel="noopener noreferrer" href="https://www.instagram.com/caseraintervention/" target="_blank">@caseraintervention</a>
                             <br /><b>FB</b>: <a href="https://www.facebook.com/caseraintervention" target="_blank" rel="noopener noreferrer">Casera Intervention</a>
-                            <br /><b>E-mail</b>: <a rel="noopener noreferrer" href="mailto:test@caseraintervention.com">info@caseraintervention.com</a>
+                            <br /><b>E-mail</b>: <a rel="noopener noreferrer" href="mailto:info@caseraintervention.com">info@caseraintervention.com</a>
                         </div>
                     </div>
             </div>
