@@ -32,7 +32,7 @@ export default class Footer extends Component{
                             <ul className="soc">
                                 <li><a rel="noopener noreferrer" className="soc-f" href="https://www.facebook.com/caseraintervention" target="_blank"> </a></li>
                                 <li><a rel="noopener noreferrer" className="soc-i" href="https://www.instagram.com/caseraintervention/" target="_blank"> </a></li>
-                                <li><a rel="noopener noreferrer" className="soc-mail soc-icon-last" href="mailto:test@caseraintervention.com"> </a></li>
+                                <li><a rel="noopener noreferrer" className="soc-mail soc-icon-last" href="mailto:info@caseraintervention.com"> </a></li>
                             </ul>
                         </div>
                         <div className="footerSection" id="madeBy">
@@ -49,7 +49,7 @@ export default class Footer extends Component{
                             <ul className="soc">
                                 <li><a rel="noopener noreferrer" className="soc-f" href="https://www.facebook.com/caseraintervention" target="_blank"> </a></li>
                                 <li><a rel="noopener noreferrer" className="soc-i" href="https://www.instagram.com/caseraintervention/" target="_blank"> </a></li>
-                                <li><a rel="noopener noreferrer" className="soc-mail soc-icon-last" href="mailto:test@caseraintervention.com"> </a></li>
+                                <li><a rel="noopener noreferrer" className="soc-mail soc-icon-last" href="mailto:info@caseraintervention.com"> </a></li>
                             </ul>
                         </div>
                         <div className="footerSection" id="madeBy">
@@ -66,7 +66,7 @@ export default class Footer extends Component{
                             <ul className="soc">
                                 <li><a rel="noopener noreferrer" className="soc-f" href="https://www.facebook.com/caseraintervention" target="_blank"> </a></li>
                                 <li><a rel="noopener noreferrer" className="soc-i" href="https://www.instagram.com/caseraintervention/" target="_blank"> </a></li>
-                                <li><a rel="noopener noreferrer" className="soc-mail soc-icon-last" href="mailto:test@caseraintervention.com"> </a></li>
+                                <li><a rel="noopener noreferrer" className="soc-mail soc-icon-last" href="mailto:info@caseraintervention.com"> </a></li>
                             </ul>
                         </div>
                         <div className="footerSection" id="madeBy">
